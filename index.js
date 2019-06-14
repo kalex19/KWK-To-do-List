@@ -1,17 +1,15 @@
 var btn = $('.submit-btn')
-var input = $('.input').val()
 var container = $('.card-container')
 
 
-btn.on('click', addTodo)
+btn.on("click", addToDo)
 
 function addToDo() {
+  var restInput = $('.resturant-input').val()
+  var locInput = $('.location-input').val()
   container.append(`
-    <i class = "far fa-circle"></i>
-    <p class="card">${input} </p>`)
-
-$('.input').val("")
-
-
+    <p class="card">${restInput}, ${locInput}</p>`)
+  $('.input').val("")
 }
+
   
