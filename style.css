@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  background-color: red;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.title {
+  font-family: cursive;
+  font-size: 2em;
+  color: white;
+}
+
+.todo-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #ECECEC;
+}
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #8A089B;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.card-container {
+  padding: 30px;
+  background: #D3A2DA;
+}
+
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 300px;
+  background: #fff;
+}
